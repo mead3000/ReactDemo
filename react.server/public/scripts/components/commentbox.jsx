@@ -55,13 +55,20 @@ var CommentList = React.createClass({
 });
 
 var CommentForm = React.createClass({
-  render: function() {
-    return (
-      <div className="commentForm">
-      	<textarea cols="30" rows="10"></textarea>
-      </div>
-    );
-  }
+
+	handleSaveButton: function(){
+		alert("Saved!");
+	},
+
+
+  	render: function() {
+	    return (
+	      <div className="commentForm">
+	      	<textarea cols="30" rows="10"></textarea>
+	      	<button onClick={this.handleSaveButton}>Save</button>
+	      </div>
+	    );
+	  }
 });
 
 var Comment = React.createClass({
