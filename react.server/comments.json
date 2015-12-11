@@ -1,7 +1,8 @@
 [
-    {"id": 1, "author": "Adele", "text": "Hello... It's me"},
-    {"id": 2, "author": "Adele", "text": "I was wondering if after all these years you'd like to meet"},
-    {"id": 3, "author": "Nick Lornie", "text": "Naaaaawww but it's pizza night!"}
+    {"id": 1, "author": "Samuel Mead", "text": "This is a comment"},
+    {"id": 2, "author": "Samuel Mead", "text": "* This is another comment"},
+    {"id": 3, "author": "Samuel Mead", "text": "** This is another comment"},
+    {"id": 4, "author": "Samuel Mead", "text": "**** This is another comment"}
 ]
 
 
