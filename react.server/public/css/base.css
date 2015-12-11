@@ -38,6 +38,7 @@ h1 {
   font-weight: bold;
   margin: 0 0 15px;
   padding: 0;
+  color: #fff;
 }
 
 h2 {
@@ -51,6 +52,7 @@ h3 {
 
 h4 {
   font-size: 1.2em;
+  margin: 0;
 }
 
 p, ul {
@@ -59,4 +61,29 @@ p, ul {
 
 ul {
   padding-left: 30px;
+}
+
+label {
+  color: #fff;
+}
+
+textarea {
+  width:100%;
+  height: 10em;
+}
+
+.CommentBox {
+  padding:10px;
+  background-color: #3a5795;
+}
+
+.commentList {
+  padding:10px;
+  background-color: #eceff5;
+}
+
+.comment {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
 }
